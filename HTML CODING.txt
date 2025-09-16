@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio - [karthikeyan.G]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+            <h1>[karthikeyan.G]</h1>
+            <p class="tagline">Web Developer | Designer | Programmer</p>
+            <nav>
+                <a href="#about">karthikeyan G</a>
+                <a href="#skills">JAVA,HTML,PYTHON</a>
+                <a href="#projects">DATA SCIENCE IN IOT </a>
+                <a href="#contact">gkarthikeyan791@gmail.com</a>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>KATHIKEYAN G</h2>
+            <p>
+                I am a passionate web developer with expertise in building modern websites and applications.
+                I enjoy solving problems and learning new technologies. Seeking opportunities to contribute and grow in a dynamic team.
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal website showcasing my projects and skills.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Task Manager App</h3>
+                <p>A web app to manage daily tasks efficiently.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    <section id="">
+        <div class="container">
+            <h2>gkarthikeyan791@gmail.com</h2>
+            <form>
+                <input type="text" placeholder="karthikeyan G" required>
+                <input type="email" placeholder="gkarthikeyan791@gmail.com" required>
+                <textarea placeholder="professional portfolio" required></textarea>
+                <button type="submit">job seekers </button>
+            </form>
+            <p>Email: <a href="mailto:your.email@example.com">gkarthikeyan791@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            &copy; 2025 karthikeyan G. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
